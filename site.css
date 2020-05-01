@@ -17,6 +17,12 @@ ul {
   list-style: none;
 }
 
+.emoji {
+  color: transparent;
+  text-shadow: 0 0 0 var(--bit-color0);
+
+}
+
 .site-columns-auto {
   --grid-gap: 1rem;
   --grid-min: 12rem;
