@@ -3,6 +3,7 @@
   padding: 1rem;
   line-height: 1.5;
   overflow-y: scroll;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -26,4 +27,11 @@ ul {
 .bit-root {
   --bit-color0: #666666;
   --bit-color1: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bit-root {
+    --bit-color0: #eeeeee;
+    --bit-color1: #666666;
+  }
 }
