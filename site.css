@@ -17,6 +17,10 @@ ul {
   list-style: none;
 }
 
+footer {
+  margin-top: 1rem;
+}
+
 .emoji {
   color: transparent;
   text-shadow: 0 0 0 var(--bit-color0);
