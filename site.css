@@ -17,6 +17,10 @@ ul {
   list-style: none;
 }
 
+li {
+  margin: 0.5rem 0;
+}
+
 footer {
   margin-top: 1.5rem;
 }
